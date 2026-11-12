@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 주간 모드 (차량의 주간/야간 설정을 따라감). 실제 화면 색은 Compose PleosTheme 에서 정함 -->
+    <style name="Theme.CarPersona" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/cp_background</item>
+        <item name="android:statusBarColor">@color/cp_background</item>
+        <item name="android:navigationBarColor">@color/cp_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <color name="cp_background">#FFEFF1F4</color>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 앱 아이콘: 파란 원 안에 웃는 차 얼굴 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FF1F63E0" android:pathData="M54,4a50,50 0,1 1,0 100a50,50 0,1 1,0 -100z" />
+    <!-- 차 몸통 -->
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M30,58 L36,42 Q38,38 43,38 L65,38 Q70,38 72,42 L78,58 Q82,59 82,64 L82,72 Q82,75 79,75 L29,75 Q26,75 26,72 L26,64 Q26,59 30,58 Z" />
+    <!-- 눈 (전조등) -->
+    <path android:fillColor="#FF1F63E0" android:pathData="M38,62a4,4 0,1 1,0 8a4,4 0,1 1,0 -8z" />
+    <path android:fillColor="#FF1F63E0" android:pathData="M70,62a4,4 0,1 1,0 8a4,4 0,1 1,0 -8z" />
+    <!-- 웃는 입 -->
+    <path android:strokeColor="#FF1F63E0" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M47,68 Q54,73 61,68" />
+    <!-- 바퀴 -->
+    <path android:fillColor="#FF0B2A66" android:pathData="M34,75h10v6h-10z M64,75h10v6h-10z" />
+</vector>
